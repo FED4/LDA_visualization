@@ -1,22 +1,26 @@
-### LDA_visualization
-## LDAWordCloud(self, lda_model, id2word, top_n, **kwargs)
-    Create a Word Cloud for all topic and color words by per word topics
-    
-## LDAWordCloud.plot_topic(self, n)
-    Create a Word Cloud for specified topic n and color words by per word topics
+# LDA_visualization
 
-#Parameters
-    ---------
-    lda_model: object
-        LDA model by gensim
+    ##Create a Word Cloud for all topic and color words by per word topics
+    LDAWordCloud(self, lda_model, id2word, top_n, **kwargs)
     
-    id2word: dict(int -> str)
-        dictionary of id to word mapping
+    ## Create a Word Cloud for specified topic n and color words by per word topics
+    LDAWordCloud.plot_topic(self, n)
+   
+
+## Parameters
+
+    ---------
+    ### lda_model: object
+    ###    LDA model by gensim
+    
+    ### id2word: dict(int -> str)
+    ###    dictionary of id to word mapping
         
-    top_n: int
-        number of top words to be shown in a topic
+    ### top_n: int
+    ###    number of top words to be shown in a topic
         
-#Dependencies
+## Dependencies
+
     import math
     from wordcloud import WordCloud, STOPWORDS
     
