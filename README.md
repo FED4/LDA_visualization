@@ -9,14 +9,14 @@
 
 ## Parameters
 
-### lda_model: object
-###    LDA model by gensim
+ lda_model: object
+    LDA model by gensim
     
-### id2word: dict(int -> str)
-###    dictionary of id to word mapping
+ id2word: dict(int -> str)
+    dictionary of id to word mapping
         
-### top_n: int
-###    number of top words to be shown in a topic
+ top_n: int
+    number of top words to be shown in a topic
         
 ## Dependencies
 
